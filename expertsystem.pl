@@ -68,7 +68,7 @@ choose_hour(STADE,T,Differentteam):-
             write('do u want to see the history of the games of the team u choosed to play against '),nl,
             write("1. yes"),nl,write("2. no"),nl,
             read(R),
-            ((R==1,write("give us 18 in td and tp to unlock this option XD"));(R==2,menu))          
+            ((R==1,write("give us 18 in td and tp to unlock this option XD"), menu);(R==2,menu))          
             ).
 
 %---------------------OPTION 2
